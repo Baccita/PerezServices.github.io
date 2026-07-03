@@ -290,7 +290,7 @@ h3 {
 
 .cards-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 18px;
 }
 
@@ -441,8 +441,13 @@ h3 {
 }
 
 .item-commercial {
-  grid-column: span 2;
+  grid-column: span 1;
   background-image: url("https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1200&q=85");
+}
+
+.item-painting {
+  grid-column: span 1;
+  background-image: url("https://images.unsplash.com/photo-1562259949-e8e7689d7828?auto=format&fit=crop&w=1000&q=85");
 }
 
 .cta-strip {
