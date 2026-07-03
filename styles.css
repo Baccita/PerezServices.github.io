@@ -347,7 +347,7 @@ h3 {
   inset: 0 80px 80px 0;
   background:
     linear-gradient(180deg, rgba(20,35,58,0.02), rgba(20,35,58,0.35)),
-    url("https://images.unsplash.com/photo-1558904541-efa843a96f01?auto=format&fit=crop&w=1000&q=85") center/cover;
+    url("assets/images/exterior-house.png") center/cover;
 }
 
 .tile-small {
@@ -357,7 +357,7 @@ h3 {
   height: 42%;
   background:
     linear-gradient(180deg, rgba(16,37,27,0.02), rgba(16,37,27,0.36)),
-    url("https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?auto=format&fit=crop&w=900&q=85") center/cover;
+    url("assets/images/painting-room.png") center/cover;
 }
 
 .feature-list {
@@ -433,21 +433,21 @@ h3 {
 }
 
 .item-lawn {
-  background-image: url("https://images.unsplash.com/photo-1567554788599-97f67787fc0f?auto=format&fit=crop&w=1000&q=85");
+  background-image: url("assets/images/lawn-care-truck.png");
 }
 
 .item-landscape {
-  background-image: url("https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=1000&q=85");
+  background-image: url("assets/images/landscaping-yard.png");
 }
 
 .item-commercial {
   grid-column: span 1;
-  background-image: url("https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1200&q=85");
+  background-image: url("assets/images/exterior-house.png");
 }
 
 .item-painting {
   grid-column: span 1;
-  background-image: url("https://images.unsplash.com/photo-1562259949-e8e7689d7828?auto=format&fit=crop&w=1000&q=85");
+  background-image: url("assets/images/painting-room.png");
 }
 
 .cta-strip {
@@ -673,4 +673,28 @@ textarea {
   h1 {
     font-size: 2.7rem;
   }
+}
+
+
+/* Real project photos */
+.tile-large,
+.tile-small,
+.gallery-item {
+  background-repeat: no-repeat;
+}
+
+.item-lawn {
+  background-position: center center;
+}
+
+.item-landscape {
+  background-position: center center;
+}
+
+.item-painting {
+  background-position: center center;
+}
+
+.item-commercial {
+  background-position: center center;
 }
